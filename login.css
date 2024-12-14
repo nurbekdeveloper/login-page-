@@ -1,0 +1,44 @@
+body{
+   background-color: #f4f4f4;
+}
+form{
+  display: flex;
+  flex-direction:column ;
+  gap: 8px;
+}
+
+
+.login {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.input{
+  padding: 5px;
+  width: 250px;
+  display: block;
+
+
+}
+.button{
+  display: block;
+  background-color: rgb(31, 253, 31);
+  color: white;
+  width: 220px;
+  border: none;
+  padding: 6px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+.icons i {
+  font-size: 25px;
+}
